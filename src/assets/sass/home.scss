@@ -1,0 +1,473 @@
+.banner {
+  width: 100%;
+  height: vw(280);
+  background: red;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.site {
+  width: 100%;
+  height: vw(590);
+  padding: 0 vw(24);
+
+  .one {
+    width: 100%;
+    height: vw(116);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 vw(16);
+    border-bottom: vw(2) solid #dddddd;
+    align-items: center;
+
+    .one-left {
+      width: vw(132);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      i {
+        font-size: vw(32);
+        color: #999999;
+        line-height: vw(42);
+        display: flex;
+        align-items: center;
+      }
+
+      em {
+        font-size: vw(32);
+        color: #999;
+      }
+    }
+
+    .one-right {
+      width: vw(114);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      i {
+        font-size: vw(32);
+        color: #999;
+      }
+
+      em {
+        font-size: vw(16);
+        color: #4c9dff;
+        display: flex;
+        align-items: center;
+
+        .van_1 {
+          color: #4c9dff;
+        }
+      }
+    }
+  }
+
+  .two {
+    width: 100%;
+    height: vw(116);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 vw(16);
+    border-bottom: vw(2) solid #dddddd;
+    align-items: center;
+
+    .two-left {
+      width: vw(250);
+      height: vw(66);
+      display: flex;
+      justify-content: space-between;
+
+      i {
+        font-size: vw(32);
+        flex: 1;
+        line-height: vw(66);
+      }
+
+      .two_data {
+        width: vw(186);
+        height: vw(66);
+        display: flex;
+        flex-direction: column;
+
+        em {
+          font-size: vw(12);
+          color: #b0b0b0;
+        }
+
+        span {
+          font-size: vw(15);
+          color: #555555;
+          display: flex;
+
+        }
+      }
+    }
+
+    .two-con {
+      width: vw(70);
+      height: vw(66);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ccc;
+    }
+
+    .two-right {
+      width: vw(350);
+      height: vw(66);
+      display: flex;
+      justify-content: space-between;
+      padding-left: vw(20);
+
+      .two_data2 {
+        display: flex;
+        flex-direction: column;
+
+        em {
+          font-size: vw(12);
+          color: #b0b0b0;
+        }
+
+        span {
+          font-size: vw(15);
+          color: #555555;
+        }
+      }
+
+      p {
+        width: vw(90);
+        height: vw(66);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        i {
+          font-size: vw(12);
+          color: #999999;
+        }
+
+        em {
+          font-size: vw(24);
+          color: #ccc;
+          display: flex;
+          align-items: center;
+
+          .van_2 {
+            font-size: vw(40);
+            color: #ccc;
+          }
+        }
+      }
+    }
+  }
+
+  .three {
+    width: 100%;
+    height: vw(116);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 vw(16);
+    border-bottom: vw(2) solid #dddddd;
+
+    .three-left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: vw(346);
+      justify-content: space-between;
+
+      i {
+        font-size: vw(32);
+        color: #a3a3a3;
+      }
+
+      p {
+        font-size: vw(32);
+        color: #cccccc;
+        display: flex;
+      }
+    }
+
+    .three-right {
+      width: vw(20);
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        color: #ccc;
+        font-size: vw(40);
+      }
+    }
+  }
+
+  .four {
+    width: 100%;
+    height: vw(116);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 vw(16);
+    border-bottom: vw(2) solid #dddddd;
+
+    .four-left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: vw(268);
+      justify-content: space-between;
+
+      i {
+        font-size: vw(32);
+        color: #a3a3a3;
+      }
+
+      p {
+        font-size: vw(32);
+        color: #cccccc;
+        display: flex;
+      }
+    }
+
+    .four-right {
+      width: vw(20);
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        color: #ccc;
+        font-size: vw(40);
+      }
+    }
+  }
+
+  .search {
+    width: 100%;
+    height: vw(126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      width: vw(570);
+      height: vw(88);
+      background: #4499ff;
+      border-radius: vw(10);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        font-size: vw(32);
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-right: vw(10);
+      }
+
+      em {
+        font-size: vw(32);
+        color: white;
+      }
+    }
+  }
+}
+
+.null {
+  width: 100%;
+  height: vw(28);
+  border-top: vw(2) solid #dddddd;
+  border-bottom: vw(2) solid #dddddd;
+  background: #f2f2f2;
+}
+
+.kind {
+  width: 100%;
+  height: vw(300);
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    width: 20%;
+    height: vw(150);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      width: 12vw;
+      height: 12vw;
+    }
+
+    .img1 {
+      background-position: -181px -197px;
+    }
+
+    .img2 {
+      background-position: 0 -135px;
+    }
+
+    .img3 {
+      background-position: -120px -139px;
+    }
+
+    .img4 {
+      background-position: -120px -195px;
+    }
+
+    .img5 {
+      background-position:  -240px -195px;
+    }
+
+    .img6 {
+      background-position: -240px -135px;
+    }
+
+    .img7 {
+      background-position: -180px -135px;
+    }
+
+    .img8 {
+      background-position: 60px -135px;
+    }
+    .img9 {
+      background-position: 0 -195px;
+    }
+
+    em {
+      font-size: vw(12);
+      color: #333333;
+    }
+
+  }
+}
+
+.null_two {
+  width: 100%;
+  height: vw(28);
+  border-top: vw(2) solid #dddddd;
+  border-bottom: vw(2) solid #dddddd;
+  background: #f2f2f2;
+}
+
+.mess {
+  width: 100%;
+  height: vw(86);
+  display: flex;
+
+  .mess-left {
+    width: vw(248);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 vw(60);
+    justify-content: space-between;
+
+    i {
+      font-size: vw(40);
+      display: flex;
+      align-items: center;
+      color: #54a2ff;
+    }
+
+    em {
+      font-size: vw(24);
+      color: #555555;
+    }
+  }
+
+  .mess-con {
+    width: vw(252);
+    height: 100%;
+    border-left: vw(2) solid #dddddd;
+    border-right: vw(2) solid #dddddd;
+    display: flex;
+    align-items: center;
+    padding: 0 vw(60);
+    justify-content: space-between;
+
+    i {
+      font-size: vw(40);
+      display: flex;
+      align-items: center;
+      color: #54a2ff;
+    }
+
+    em {
+      font-size: vw(24);
+      color: #555555;
+    }
+  }
+
+  .mess-right {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 vw(60);
+    justify-content: space-between;
+
+    i {
+      font-size: vw(40);
+      display: flex;
+      align-items: center;
+      color: #54a2ff;
+    }
+
+    em {
+      font-size: vw(12);
+      color: #555555;
+    }
+  }
+}
+
+.null_three {
+  width: 100%;
+  height: vw(28);
+  border-top: vw(2) solid #dddddd;
+  border-bottom: vw(2) solid #dddddd;
+  background: #f2f2f2;
+}
+
+.img {
+  width: 100%;
+  height: vw(154);
+  background: red;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.link {
+  width: 100%;
+  height: vw(234);
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  i {
+    font-size: vw(12);
+    color: #888888;
+    margin-top: vw(46);
+  }
+
+  em {
+    font-size: vw(12);
+    color: #888888;
+    margin-top: vw(14);
+  }
+}
