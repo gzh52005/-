@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <appHome></appHome>
+    <router-view />
   </div>
 </template>
 
 <script>
-import appHome from "./components/Home/index.vue";
+
 
 export default {
   data() {
@@ -13,7 +13,7 @@ export default {
   },
 
   components: {
-    appHome
+
   },
 
   methods: {}
