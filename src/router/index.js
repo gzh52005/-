@@ -17,28 +17,6 @@ const routes = [
     meta: {
       title: '登录页面'
     },
-    // children:[
-    //   {
-    //     path:'/login',
-    //     redirect: '/login/index'
-    //   },
-    //   {
-    //     path:"accountandpassword",
-    //     name:"accountandpassword",
-    //     component:() => import('../views/AccountAndPassword'),
-    //     meta:{
-    //       title:'账户密码登录'
-    //     }
-    //   },
-    //   {
-    //     path:"resetpsw",
-    //     name:"resetpsw",
-    //     component:() => import('../views/ResetPsw'),
-    //     meta:{
-    //       title:'重置密码'
-    //     },
-    //   }
-    // ]
   },
   {
     path: "/reg",
@@ -48,6 +26,22 @@ const routes = [
       title: '注册页面'
     },
   },
+  {
+    path:"/accountandpassword",
+    name:"accountandpassword",
+    component:() => import('../views/AccountAndPassword'),
+    meta:{
+      title:'账户密码登录'
+    }
+  },
+  {
+    path:"/resetpsw",
+    name:"resetpsw",
+    component:() => import('../views/ResetPsw'),
+    meta:{
+      title:'重置密码'
+    },
+  }
 ];
 
 const router = new VueRouter({

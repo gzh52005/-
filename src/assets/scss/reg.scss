@@ -4,6 +4,16 @@
 .return{
     margin: vw(20) 0 vw(10) vw(-30);
 }
+// 头部
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span{
+        color: #49f;
+    }
+}
+// 注册表单部分
 .van-form{
         margin: 0 vw(60);
     h1{
@@ -56,5 +66,68 @@
     }
     ::v-deep .van-cell{
         padding: vw(30) 0;
+    }// 登录表单部分
+    ::v-deep .mdl{
+        padding-left: vw(400);
+        margin-top: vw(40);
+    }
+    ::v-deep .van-field__label{
+        width: vw(80);
+    }
+    ::v-deep .changeMethod{
+        display: flex;
+        justify-content: space-between;
+        font-size: vw(26);
+    }
+    // 未绑定手机号
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+    
+    .block {
+        width: vw(536);
+        height: vw(312);
+        background-color: #fff;
+        border-radius: 4%;
+        display: flex;
+        flex-direction: column;
+        h5{
+            height: vw(86);
+            text-align: center;
+            margin: 0;
+            line-height: vw(86);
+            font-size: vw(36);
+            font-family: "宋体";
+            font-weight: normal;
+        }
+        .content{
+            width: 100%;
+            height: vw(140);
+            font-size: vw(24);
+            border-bottom: 1px solid #888;
+           .clickReg{
+               padding: 0 vw(32);
+               margin: 0;
+               color: #888;
+           }
+           .ContactService{
+               text-align: left;
+            padding: 0 vw(32);
+               margin: 0;
+               color: #888;
+
+           }
+        }
+        .confire{
+            flex:1;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4499FF;
+        }
     }
 }
