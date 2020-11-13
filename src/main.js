@@ -2,6 +2,9 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import request from './utils/request';
+import axios from "axios"
+
 
 
 // 引入vant
@@ -11,6 +14,10 @@ import 'vant/lib/index.css';
 Vue.use(Vant);
 
 Vue.config.productionTip = false;
+Vue.prototype.$request = request;
+Vue.prototype.$axios = axios;
+
+axios.defaults.baseURL = '/api'
 
 new Vue({
   router,
